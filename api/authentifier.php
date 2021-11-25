@@ -27,7 +27,7 @@ try {
         produceResult(clearData($dataAuth));
     }else {
         //Echec d'autentification
-        produceError("Email ou password incorrecte. Merci de réessayer !");
+        produceError("Email ou password incorrect. Merci de réessayer !");
     }
 
 

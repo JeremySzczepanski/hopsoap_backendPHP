@@ -140,22 +140,22 @@ CREATE TABLE `product` (
   `category` int(11) DEFAULT NULL,
   `image` varchar(150) DEFAULT NULL,
   `createdat` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `product`
 --
 
 INSERT INTO `product` (`id`, `name`, `description`, `price`, `stock`, `category`, `image`, `createdat`) VALUES
-(1, 'Talons hauts 2020 femme', 'SARAIRIS 2020 mode été plate-forme talons hauts compensés décontracté confortable lumière loisirs chaussures femme sandales femmes chaussures femme', 59.99, 600, 1, 'talon1.PNG', '2020-04-16 00:00:00'),
+(1, 'Talons hauts 2020 femme', 'SARAIRIS 2020 mode \ét\é plate-forme talons hauts compens\és d\écontract\é confortable lumi\ère loisirs chaussures femme sandales femmes chaussures femme', 59.99, 600, 1, 'talon1.PNG', '2020-04-16 00:00:00'),
 (2, 'sandales compensées', 'DAHOOD sandales compensées pour femme mi-talon été sans lacet boucle dames chaussures artificiel bout ouvert décontracté pompes de mariage femmes Sandalias', 78.98, 200, 1, 'talon2.PNG', '2020-03-20 16:56:47'),
 (3, 'Chaussures à talons hauts pour femmes', 'Chaussures à talons hauts pour femmes, escarpins superbes 12cm, escarpins à talons fins, à plateforme pointue et à motif serpent', 23.98, 200, 1, 'talon4.PNG', '2020-03-20 16:57:53'),
-(4, 'Sandales femmes', 'Sandales femmes nouvelles chaussures d\'été femme grande taille 46 talons sandales pour chaussures à semelles compensées femme chaussures décontractées gladiateur Sandalias Mujer', 23.98, 200, 1, 'b2.png', '2020-03-20 16:57:53'),
-(5, 'Direct talons bas', 'Usine Direct talons bas sandales femmes bride à la cheville chaussures d\'été femme grande taille 43 bloc talons femmes chaussures 2019 sandales décontractées', 23.89, 50, 1, 'b5.png', '2020-03-22 15:17:02'),
+(4, 'Sandales femmes', 'Sandales femmes nouvelles chaussures d été femme grande taille 46 talons sandales pour chaussures à semelles compensées femme chaussures décontractées gladiateur Sandalias Mujer', 23.98, 200, 1, 'b2.png', '2020-03-20 16:57:53'),
+(5, 'Direct talons bas', 'Usine Direct talons bas sandales femmes bride à la cheville chaussures d été femme grande taille 43 bloc talons femmes chaussures 2019 sandales décontractées', 23.89, 50, 1, 'b5.png', '2020-03-22 15:17:02'),
 (6, 'sandales plates', 'Femmes 2020 été sandales plates décontractées grande taille tongs femme troupeau métal décoration fermeture éclair cheville Wrap chaussures loisirs chaussures', 67.99, 900, 1, 'b6.png', '2020-03-22 15:17:02'),
-(7, 'sandales grande taille', 'Usine Direct femmes sandales grande taille 43 gladiateur sandales pour plage plat d\'été Chaussures Femme Zip livraison directe Chaussures Femme', 89.99, 202, 1, 'b7.png', '2020-03-22 15:30:57'),
+(7, 'sandales grande taille', 'Usine Direct femmes sandales grande taille 43 gladiateur sandales pour plage plat d été Chaussures Femme Zip livraison directe Chaussures Femme', 89.99, 202, 1, 'b7.png', '2020-03-22 15:30:57'),
 (8, 'femmes Slingback', '2020 été élégant femmes Slingback sandales blanc noir argent bas talons hauts fermé orteil sandales décontracté bureau dame chaussures de fête', 88.99, 200, 1, 'b8.png', '2020-03-22 15:30:57'),
-(9, 'Sexy mince talons', 'Sarairis 2020 nouvelle mode grande taille 43 Sexy mince talons hauts d\'été sandales femme chaussures bout pointu mélange couleur chaussures femmes', 34.99, 500, 1, 'b9.png', '2020-03-22 15:30:57'),
+(9, 'Sexy mince talons', 'Sarairis 2020 nouvelle mode grande taille 43 Sexy mince talons hauts d été sandales femme chaussures bout pointu mélange couleur chaussures femmes', 34.99, 500, 1, 'b9.png', '2020-03-22 15:30:57'),
 (10, 'femmes sandales', 'Été femmes sandales bride à la cheville treillis dames épais talons hauts chaussures femme croix bout ouvert couverture talons femme sandales 2020', 56.99, 200, 1, 'b10.png', '2020-03-22 15:30:57'),
 (11, 'Élégant robe longue', 'Élégant robe longue femmes printemps Plaid imprimer robe de soirée irrégulière Vintage robes dames bouton a-ligne 2020 nouvelle robe de mode', 55.99, 8500, 2, 'c2.png', '2020-03-24 21:15:47'),
 (12, 'robe de bureau Sexy', 'Grande taille 2019 mode été Patchwork pli travail robe de bureau Sexy moulante sans manches femmes décontracté tenue de fête robe de fête', 34.99, 500, 2, 'c3.png', '2020-03-24 21:15:47'),
@@ -178,13 +178,13 @@ INSERT INTO `product` (`id`, `name`, `description`, `price`, `stock`, `category`
 (29, 'vêtements décontracté', '4xl grande taille femmes vêtements décontracté col en v femmes Blouses à manches courtes imprimé Chemise Femme taille ceinture haut pour Femme Chemise Femme', 56.99, 555, 4, 'f4.png', '2020-04-01 10:50:39'),
 (30, 'Chemises À Carreaux', '2019 Printemps Chemises À Carreaux Femmes Batwing Manches En Mousseline De Soie Blouses décontracté Nuisette Femme hauts grande taille Tartan Blusas Mujer M-4XL', 65.88, 222, 4, 'f5.png', '2020-04-01 10:50:39'),
 (31, 'Mode Vintage imprimé', 'Mode Vintage imprimé Floral Blouse Chemise 2019 été sans manches en mousseline de soie Blouse Sexy col en V femmes chemises décontractées amples Chemise', 56.99, 444, 4, 'f6.png', '2020-04-01 10:50:39'),
-(32, 'baskets maille respirant', 'Femmes baskets maille respirant plate-forme talons compensés chaussures de sport d\'été chaussures plates Zapatillas Deportivas Mujer', 299.99, 200, 5, 'm2.png', '2020-04-01 11:13:38'),
+(32, 'baskets maille respirant', 'Femmes baskets maille respirant plate-forme talons compensés chaussures de sport d été chaussures plates Zapatillas Deportivas Mujer', 299.99, 200, 5, 'm2.png', '2020-04-01 11:13:38'),
 (33, 'chaussures de course', 'Nouveau élégant femme chaussures de course augmentant 6CM INS haut talon baskets femmes hauteur plate-forme respirant sport marche filles', 188.99, 444, 5, 'm3.png', '2020-04-01 11:13:38'),
 (34, 'Doux décontracté', 'Doux décontracté épais Sneaker plate-forme été respirant maille chaussures pour femmes plat décontracté jaune chaussures de sport femme Orange 2020', 499.99, 222, 5, 'm4.png', '2020-04-01 11:13:38'),
 (35, 'baskets légères', 'Mode femmes baskets légères chaussures de sport femmes chaussures respirant confort plate-forme chaussures pour dames Basket Femme formateurs', 666.99, 889, 5, 'm5.png', '2020-04-01 11:13:38'),
 (36, 'baskets blanc noir', 'Femmes baskets blanc noir chaussures de créateur femme automne hiver grosses baskets mode lumière papa chaussures dames plate-forme chaussures', 788.99, 333, 5, 'm6.png', '2020-04-01 11:13:38'),
 (37, 'baskets femmes hauteur', 'nouveau élégant femme chaussures de course augmentant 6CM INS haut talon baskets femmes hauteur plate-forme respirant sport marche filles', 568.99, 222, 5, 'm7.png', '2020-04-01 11:13:38'),
-(41, 'chemise femme VIP 2020', 'Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l\'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de tex', 69.99, 600, 4, 'ch1.PNG', '2020-12-09 19:07:13'),
+(41, 'chemise femme VIP 2020', 'Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de tex', 69.99, 600, 4, 'ch1.PNG', '2020-12-09 19:07:13'),
 (42, ' Chemisier blanc en mousseline', 'Chemisier blanc en mousseline de soie pour femme, vêtement de bureau, à la mode, chemise à manches longues, tenue décontractée', 19.99, 300, 4, 'ch4.PNG', '2020-12-09 19:52:00'),
 (43, 'Chemisier bleu en mousseline', 'Chemisier blanc en mousseline de soie pour femme, vêtement de bureau, à la mode, chemise à manches longues, tenue décontractée', 79.99, 500, 4, 'ch2.PNG', '2020-12-09 19:54:40'),
 (44, 'Chaussures blanches compensées', 'Chaussures blanches compensées plate-forme baskets femmes respirant Air maille chaussette compensée chaussures femme 2020 chaussures décontractées Zapatos De Mujer', 59.99, 550, 5, 'bonplan1.PNG', '2020-12-09 19:59:34'),
@@ -193,11 +193,11 @@ INSERT INTO `product` (`id`, `name`, `description`, `price`, `stock`, `category`
 (62, 'Chemise Femme été 2065', 'Merci Pour ce produit ajouté', 69.99, 600, 3, 'ch2.PNG', '2020-12-26 13:51:51'),
 (69, 'Chemise Femme été 2020', 'Wizards are used to help users walk through a defined step-by-step process. Each step is in the sidebar on the left. As users complete steps, the steps are marked with a green bar to the left.', 39.99, 800, 5, 'chemise_4.webp', '2020-12-27 18:07:22'),
 (75, 'Product Test', 'fdsvefgber fzergre gferger', 69.99, 500, 5, 'manteau_2.PNG', '2020-12-28 12:49:49'),
-(76, 'Chemise Femme été 2065', 'Cours 10 Admin - Service d\'upload d\'image associé à un produit', 39.99, 200, 4, 'chaussure_1.webp', '2020-12-28 14:14:56'),
-(77, 'Talons hauts 2020', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su', 369.99, 600, 4, 'robe_1.PNG', '2020-12-28 15:11:58'),
-(78, 'Chemise Femme été 2065', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su', 39.99, 200, 0, 'robe_2.PNG', '2020-12-28 15:13:28'),
-(79, 'Chemise Femme été 2065', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su', 39.99, 200, 0, 'robes_1.webp', '2020-12-28 15:17:16'),
-(80, 'Name 2020', 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu\'il est prêt ou que la mise en page est achevée. Généralement, on u', 39.99, 200, 0, 'robes_3.webp', '2020-12-28 15:31:48');
+(76, 'Chemise Femme été 2065', 'Cours 10 Admin - Service d upload d image associé à un produit', 39.99, 200, 4, 'chaussure_1.webp', '2020-12-28 14:14:56'),
+(77, 'Talons hauts 2020', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su', 369.99, 600, 4, 'robe_1.PNG', '2020-12-28 15:11:58'),
+(78, 'Chemise Femme été 2065', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su', 39.99, 200, 0, 'robe_2.PNG', '2020-12-28 15:13:28'),
+(79, 'Chemise Femme été 2065', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su', 39.99, 200, 0, 'robes_1.webp', '2020-12-28 15:17:16'),
+(80, 'Name 2020', 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu il est prêt ou que la mise en page est achevée. Généralement, on u', 39.99, 200, 0, 'robes_3.webp', '2020-12-28 15:31:48');
 
 --
 -- Index pour les tables déchargées
